@@ -3,7 +3,7 @@
 The bidirectional CPC model proposed in the paper:  
 ["On Scaling Contrastive Representations for Low-Resource Speech Recognition"](https://arxiv.org/abs/2102.00850).
 
-See `example.py` for a simple example of how to load the model and extract the representation used in the paper.
+See `example.py` for a simple example of how to load the model and extract the representations used in the paper.
 
 File format used for training is 16-bit PCM sampled at 16kHz. See `test.wav`.
 
