@@ -2,7 +2,16 @@
 
 The bidirectional CPC model proposed in the paper ["On Scaling Contrastive Representations for Low-Resource Speech Recognition"](https://arxiv.org/abs/2102.00850).
 
-See `extract.py` for a simple example of how to run and extract the context representation used in the paper.
+See `example.py` for a simple example of how to load the model and extract the context representation used in the paper.
 
-Required file format is 16-bit PCM sampled at 16kHz. See `test.wav`.
+File format used for training is 16-bit PCM sampled at 16kHz. See `test.wav`.
 
+To test, run:
+```
+conda create -n scaling python==3.6.8
+conda activate scaling
+pip install -r requirements.txt
+python extract.py
+```
+
+Tested with `CUDA 9.0`.
