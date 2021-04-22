@@ -12,7 +12,7 @@ To test, run:
 conda create -n scaling python==3.6.8
 conda activate scaling
 pip install -r requirements.txt
-python extract.py
+python example.py
 ```
 
 Tested with `CUDA 9.0`.
