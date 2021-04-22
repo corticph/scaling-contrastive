@@ -1,6 +1,6 @@
 ## Bidirectional CPC Model for Speech Representations 
 
-The bidirectional CPC model proposed in the paper:
+The bidirectional CPC model proposed in the paper:  
 ["On Scaling Contrastive Representations for Low-Resource Speech Recognition"](https://arxiv.org/abs/2102.00850).
 
 See `example.py` for a simple example of how to load the model and extract the representation used in the paper.
